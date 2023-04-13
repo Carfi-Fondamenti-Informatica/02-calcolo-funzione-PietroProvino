@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
     float a, b, x, y, z;
-    cout << "inserisci tre valori reali:\n";
     cin >> a >> b >> x >> y;
     if ((x<0)&&(y>0)){
         z=(a*x)-(b*y);
